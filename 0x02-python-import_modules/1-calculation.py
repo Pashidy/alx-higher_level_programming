@@ -6,13 +6,13 @@ if __name__ == "__main__":
     a = 10
     b = 5
 
-    addition_result = add(a, b)
-    subtraction_result = subtract(a, b)
-    multiplication_result = multiply(a, b)
-    division_result = divide(a, b)
+    result_add = add(a, b)
+    result_subtract = subtract(a, b)
+    result_multiply = multiply(a, b)
+    result_divide = divide(a, b)
 
-    print("Addition:", addition_result)
-    print("Subtraction:", subtraction_result)
-    print("Multiplication:", multiplication_result)
-    print("Division:", division_result)
+    print(result_add)
+    print(result_subtract)
+    print(result_multiply)
+    print(result_divide)
 
