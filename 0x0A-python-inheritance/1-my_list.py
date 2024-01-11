@@ -1,16 +1,10 @@
 #!/usr/bin/python3
-
-"""
-module for my lists (inherits form list)
-"""
+"""Defines an inherited list class MyList."""
 
 
 class MyList(list):
-    """
-    elements of the list int type
-    return my list and sorted list
-    """
+    """Implements sorted printing for the built-in list class."""
+
     def print_sorted(self):
-        # sorted method
-        # sorted(iterable[, key][, reverse])
+        """Print a list in sorted ascending order."""
         print(sorted(self))
