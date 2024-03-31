@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# To find the peak of a list of integers
+
 def find_peak(list_of_integers):
     if len(list_of_integers) == 0:
         return None
@@ -16,4 +18,3 @@ def find_peak(list_of_integers):
             right = mid
 
     return list_of_integers[left]
-
