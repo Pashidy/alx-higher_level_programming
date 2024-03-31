@@ -1,7 +1,15 @@
 #!/usr/bin/python3
-# To find the peak of a list of integers
+""" To find the peak of a list of integers
+"""
+
 
 def find_peak(list_of_integers):
+    """
+    Args:
+        list_of_integers(list of int): List of integers to find peak of
+    Returns:
+        int: Peak of list_of_integers or None if list is empty
+    """
     if len(list_of_integers) == 0:
         return None
     if len(list_of_integers) == 1:
